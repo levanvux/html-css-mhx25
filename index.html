@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>23521809</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 20rem;
+        background-color: Gainsboro;
+      }
+      main {
+        margin-top: 5rem;
+        display: flex;
+        border-radius: 2px;
+      }
+      main div {
+        width: 28rem;
+        height: 36rem;
+      }
+      #right,
+      #left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 2rem;
+      }
+      #right {
+        background-color: #01796f;
+        color: white;
+      }
+      #right button {
+        background-color: #04988b;
+        color: white;
+        border: none;
+        padding: 0.8rem;
+        border-radius: 2rem;
+      }
+      #right button:hover {
+        background-color: #09dcca;
+      }
+      #right p {
+        text-align: center;
+      }
+      #left {
+        background-color: white;
+      }
+      #left img {
+        width: 1.2rem;
+        border-radius: 50%;
+        margin: 0.1rem;
+      }
+      #image-container {
+        text-align: center;
+      }
+      #left h1 {
+        letter-spacing: 0.2rem;
+        margin-top: 5.5rem;
+      }
+      #left input {
+        background-color: rgb(230, 230, 230);
+        padding: 0.5rem;
+        border: none;
+        border-radius: 5px;
+        width: 70%;
+        padding: 1rem;
+      }
+      #left button {
+        width: 70%;
+        padding: 0.8rem;
+        border-radius: 5px;
+        border: none;
+        background-color: #04766d;
+        color: white;
+      }
+      #left button:hover {
+        background-color: #015f57;
+      }
+      #left p {
+        font-size: 0.8rem;
+      }
+      button,
+      img {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="left">
+        <h1>Signin</h1>
+        <input type="text" placeholder="username" />
+        <input type="password" placeholder="password" />
+        <button>Signin</button>
+        <p>or begin with</p>
+        <div id="image-container">
+          <img src="facebook-icon.png" alt="Facebook Icon" />
+          <img src="googleplus-icon.png" alt="Google Plus Icon" />
+          <img src="linkedin-icon.webp" alt="LinkedIn Icon" />
+        </div>
+      </div>
+      <div id="right">
+        <h2>Welcome back!</h2>
+        <p>
+          Welcome back! We're so happy to have you here. It's great to see you
+          again. We hope you had a safe and enjoyable time away.
+        </p>
+        <button>No account yet? Signup.</button>
+      </div>
+    </main>
+  </body>
+</html>
